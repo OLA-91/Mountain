@@ -1,0 +1,91 @@
+#home {
+    background-image: url(/images/bg_header.jpg);
+    height: 1400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: padding-box;
+
+}
+.logo {
+width: auto;
+min-width: 150px;
+
+}
+
+.text-header {
+
+    text-align: center;
+    color: white;
+    margin-top: 250px;
+
+}
+.text1 {
+font-size: 4rem;
+
+}
+.text2 {
+
+    font-size: 5rem;
+
+
+}
+.text3 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: lighter;
+    margin-top: 60px;
+
+}
+
+#about {
+    background-image: url(/images/bg_nuage.jpg);
+    height: 1500px;
+}
+
+#bg-bleu {
+    background-color: rgba(0, 255, 255, 0.300)
+   
+}
+
+
+
+
+#history {
+    margin-left: 10px;
+background-image: url(/images/bg_appareil_photo.jpg);
+
+height: 500px;
+background-size: cover;
+zoom: 1.9;
+background-position: bottom;
+}
+#photos {
+    background-color: #C0C0C0;
+    
+}
+#contact {
+    
+
+background-image:url(/images/bg_newsletter.jpg) ;
+height: 500px;
+}
+.card1 {   
+   background-color: #24323b;   
+   font-size: 33px;  } 
+   .card-text {     
+  color: white;
+    margin-top: 20px; 
+    margin-left: 85px; 
+  }  
+    .text11 {    
+      font-size: 15px; 
+       color: white;   
+    margin-left: 85px;  
+     display: inline; 
+   }  
+   .text12 {  
+     font-size: 15px;   
+       color: aqua;  
+   display: inline;  }
+
