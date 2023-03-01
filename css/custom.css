@@ -1,5 +1,5 @@
 #home {
-    background-image: url(/images/bg_header.jpg);
+    background-image: url(../images/bg_header.jpg);
     height: 1400px;
     width: 100%;
     background-repeat: no-repeat;
@@ -7,9 +7,10 @@
     background-origin: padding-box;
 
 }
+
 .logo {
-width: auto;
-min-width: 150px;
+    width: auto;
+    min-width: 150px;
 
 }
 
@@ -20,16 +21,19 @@ min-width: 150px;
     margin-top: 250px;
 
 }
+
 .text1 {
-font-size: 4rem;
+    font-size: 4rem;
 
 }
+
 .text2 {
 
     font-size: 5rem;
 
 
 }
+
 .text3 {
     text-align: center;
     font-size: 28px;
@@ -39,13 +43,12 @@ font-size: 4rem;
 }
 
 #about {
-    background-image: url(/images/bg_nuage.jpg);
+    background-image: url(../images/bg_nuage.jpg);
     height: 1500px;
 }
 
 #bg-bleu {
     background-color: rgba(0, 255, 255, 0.300)
-   
 }
 
 
@@ -53,39 +56,46 @@ font-size: 4rem;
 
 #history {
     margin-left: 10px;
-background-image: url(/images/bg_appareil_photo.jpg);
+    background-image: url(../images/bg_appareil_photo.jpg);
 
-height: 500px;
-background-size: cover;
-zoom: 1.9;
-background-position: bottom;
+    height: 500px;
+    background-size: cover;
+    zoom: 1.9;
+    background-position: bottom;
 }
+
 #photos {
     background-color: #C0C0C0;
-    
+
 }
+
 #contact {
-    
 
-background-image:url(/images/bg_newsletter.jpg) ;
-height: 500px;
+
+    background-image: url(../images/bg_newsletter.jpg);
+    height: 500px;
 }
-.card1 {   
-   background-color: #24323b;   
-   font-size: 33px;  } 
-   .card-text {     
-  color: white;
-    margin-top: 20px; 
-    margin-left: 85px; 
-  }  
-    .text11 {    
-      font-size: 15px; 
-       color: white;   
-    margin-left: 85px;  
-     display: inline; 
-   }  
-   .text12 {  
-     font-size: 15px;   
-       color: aqua;  
-   display: inline;  }
 
+.card1 {
+    background-color: #24323b;
+    font-size: 33px;
+}
+
+.card-text {
+    color: white;
+    margin-top: 20px;
+    margin-left: 85px;
+}
+
+.text11 {
+    font-size: 15px;
+    color: white;
+    margin-left: 85px;
+    display: inline;
+}
+
+.text12 {
+    font-size: 15px;
+    color: aqua;
+    display: inline;
+}
