@@ -1,6 +1,6 @@
 #home {
     background-image: url(../images/bg_header.jpg);
-    height: 1400px;
+    height: 50rem;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -8,9 +8,12 @@
 
 }
 
+#l1 {
+    width: 100px;
+}
+
 .logo {
-    width: auto;
-    min-width: 150px;
+    width: 100px;
 
 }
 
@@ -18,25 +21,25 @@
 
     text-align: center;
     color: white;
-    margin-top: 250px;
+    margin-top: 40px;
 
 }
 
 .text1 {
-    font-size: 4rem;
+    font-size: 45px;
 
 }
 
 .text2 {
 
-    font-size: 5rem;
+    font-size: 50px;
 
 
 }
 
 .text3 {
     text-align: center;
-    font-size: 28px;
+    font-size: 2rem;
     font-weight: lighter;
     margin-top: 60px;
 
@@ -44,28 +47,66 @@
 
 #about {
     background-image: url(../images/bg_nuage.jpg);
-    height: 1500px;
+    height: 50rem;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: padding-box;
 }
 
 #bg-bleu {
-    background-color: rgba(0, 255, 255, 0.300)
+    background-color: rgba(0, 255, 255, 0.300);
+    text-align: center;
+    justify-content: center;
+    height: 500px;
+    max-width: 500px;
+
+
+
 }
 
+.t {
+    justify-content: center;
+    text-align: center;
+    max-width: 10rem;
+}
 
+.d-flex {
+    justify-content: center;
+}
 
+#cam {
+    width: 100%;
+}
 
 #history {
     margin-left: 10px;
     background-image: url(../images/bg_appareil_photo.jpg);
 
-    height: 500px;
-    background-size: cover;
-    zoom: 1.9;
+    height: 700px;
+    zoom: 1;
     background-position: bottom;
+
+    background-size: cover;
+
 }
+
+#bg1-bleu {
+    background-color: rgba(0, 255, 255, 0.300);
+    text-align: center;
+    justify-content: center;
+    height: 700px;
+    width: 500px;
+
+}
+
+
+#img-fluid {}
 
 #photos {
     background-color: #C0C0C0;
+
+
 
 }
 
@@ -73,29 +114,79 @@
 
 
     background-image: url(../images/bg_newsletter.jpg);
-    height: 500px;
+
+}
+
+.contact1 {
+
+    width: 390px;
+}
+
+h1 {
+    font-size: 20px;
+
+}
+
+.row.contact1 {
+
+    width: 100%;
+
+}
+
+
+
+p {
+    font-size: 15px;
+
+}
+
+#email {
+    justify-content: start;
 }
 
 .card1 {
     background-color: #24323b;
     font-size: 33px;
+
 }
 
 .card-text {
     color: white;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-left: 85px;
 }
 
 .text11 {
-    font-size: 15px;
+    font-size: 13px;
     color: white;
     margin-left: 85px;
-    display: inline;
+
 }
 
 .text12 {
     font-size: 15px;
     color: aqua;
-    display: inline;
+    justify-content: start;
+    text-align: start;
+    margin-left: 90px;
+
+
+}
+
+.p1 {
+    font-weight: 100;
+
+}
+
+.p2 {
+    font-weight: 100;
+}
+
+.p3 {
+    font-weight: 100;
+}
+
+*,
+::after ::before {
+    box-sizing: unset;
 }
